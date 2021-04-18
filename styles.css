@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  background-color: #003049;
+}
+
+#level-title {
+  font-family: 'Syne Mono', monospace;
+  font-size: 3.5rem;
+  margin-top: 5%;
+  color: #fdf0d5;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 10px;
+  display: inline-block;
+  height: 210px;
+  width: 210px;
+  border: 3px solid #fdf0d5;
+  border-radius: 20%;
+  opacity: 50%;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.game-over {
+  background-color: rgb(107, 0, 0);
+  opacity: 0.8;
+}
+
+.red {
+  background: linear-gradient(45deg, rgba(84,1,0,1) 0%, rgba(152,7,7,1) 47%, rgba(255,0,1,1) 100%);
+  border-top-right-radius: 100%;
+}
+
+.green {
+  background: linear-gradient(45deg, rgba(9,68,4,1) 0%, rgba(8,113,32,1) 48%, rgba(57,181,10,1) 100%);
+  border-top-left-radius: 100%;
+}
+
+.blue {
+  background: linear-gradient(45deg, rgba(6,1,98,1) 0%, rgba(9,9,121,1) 35%, rgba(0,91,255,1) 100%);
+  border-bottom-right-radius: 100%;
+}
+
+.yellow {
+  background: linear-gradient(45deg, rgba(105,86,0,1) 0%, rgba(159,125,0,1) 36%, rgba(255,239,0,1) 100%);
+  border-bottom-left-radius: 100%;
+}
+
+.pressed {
+  opacity: 100%;
+}
+
+.sequence {
+  opacity: 100%;
+  border: 7px solid #fdf0d5;
+  margin: 6px;
+}
